@@ -1,8 +1,8 @@
-body {
+/*body {
+	background-color: #ff0000; 
+*/
 
-/*	background-color: #ff0000; */
-	/*This is a comment line in a css file.*/
-
-
-
+#map-container {
+	height:	500px;
+	width: 500px;
 }

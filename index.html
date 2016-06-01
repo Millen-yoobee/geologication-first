@@ -1,21 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-	<head>
+	<head> 
 		<meta charset="utf-8">
-
-		<!-- The first comment line can only be placed after the charset line -->
-
-		<title> Home </title>
+		<title>Home</title>
+  	  <!-- 	<meta name="keywords" content="aircraft tour tours"> -->
 		<meta name="description" content="Between 150 and 160 characters">
-		<link rel="stylesheet" href="css/styles.css">
-
+		<meta name="author" content="Millen C. Wong">
+		<link rel="stylesheet" href="css/styles.css">  
+	  <!-- <meta name="robots" content="noindex, nofollow"   -->
 	</head>
-
-
 	<body>
-			Heading
-			<!-- Main content goes here -->
 
-	</body>
-</html>
+		<div id="map-container" > </div>
+
+		<select id="store-picker"> </select>
+		  
+		<script src="js/geolocation.js" > </script>
+		<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer>  </script>
+			<!--   callback calls or initiates the function initMap, which is in geolocation.js -->
+	 </body>
+</html>	 	   
+
